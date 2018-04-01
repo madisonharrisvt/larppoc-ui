@@ -14,9 +14,9 @@ const httpOptions = {
 @Injectable()
 export class CharacterService {
 
-  private characterListURL = 'http://localhost:49679/api/characterlist';
-  private characterURL = 'http://localhost:49679/api/characterdetail';
-  private characterSearchURL = 'http://localhost:49679/api/charactersearch'
+  private characterListURL = 'http://localhost:62090/api/characterlist';
+  private characterURL = 'http://localhost:62090/api/characterdetail';
+  private characterSearchURL = 'http://localhost:62090/api/charactersearch'
 
   constructor(
     private http: HttpClient,
